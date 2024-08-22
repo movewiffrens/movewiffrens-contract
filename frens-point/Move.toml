@@ -1,0 +1,26 @@
+[package]
+name = "movewiffrens"
+version = "0.0.0"
+authors = []
+
+[addresses]
+admin_addr = "0x97c2baaa65f4eb9192a9eac1a909de83b8c3750a88b6900c40d6e91a77247a1e"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "main"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dependencies.AptosToken]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "main"
+subdir = 'aptos-move/framework/aptos-token'
+
+[dependencies.AptosTokenObjects]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "main"
+subdir = 'aptos-move/framework/aptos-token-objects'
+
+[dev-dependencies]
